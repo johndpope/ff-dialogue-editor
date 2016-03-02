@@ -4,6 +4,9 @@
   "description": "A complete set of tools to create dynamic dialogue trees for video games",
   "author": "Nick van Oosten",
   "main": "main.js",
+  "scripts": {
+      "start": "electron main.js"
+  },
   "dependencies": {},
   "devDependencies": {
     "electron-prebuilt": "^0.36.9",
