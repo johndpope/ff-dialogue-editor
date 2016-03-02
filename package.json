@@ -1,0 +1,17 @@
+{
+  "name": "ff-dialogue-editor",
+  "version": "0.1.0",
+  "description": "A complete set of tools to create dynamic dialogue trees for video games",
+  "author": "Nick van Oosten",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.9",
+    "jointjs": "^0.9.7"
+  },
+  "license": "GPL-3.0",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/stargatefreak92/ff-dialogue-editor"
+  }
+}
