@@ -29,7 +29,7 @@ var link = new joint.dia.Link({
 
 graph.addCells([rect, rect2, link]);
 
-$(paper.svg).attr('viewBox', '0 0 500 500');
+$(paper.svg).attr('viewBox', '0 0 100 100');
 $(paper.svg).attr('preserveAspectRatio', 'xMinYMin meet');
 $(paper.svg).addClass('svg-content');
 $(paper.svg).removeAttr('width');

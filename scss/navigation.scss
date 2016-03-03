@@ -1,0 +1,23 @@
+@import 'global-variables';
+
+#navigation {
+	padding: 10px 0;
+	border-bottom: 1px solid black;
+	
+	ul {
+		list-style-type: none;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	
+	li {
+		display: inline;
+	}
+	
+	a {
+		color: black;
+		text-decoration: none;
+		padding: 10px;
+	}
+}
