@@ -5,16 +5,18 @@
   "author": "Nick van Oosten",
   "main": "main.js",
   "scripts": {
-      "start": "electron main.js"
+    "start": "electron main.js"
   },
   "dependencies": {},
   "devDependencies": {
+    "bootstrap": "^3.3.6",
     "electron-prebuilt": "^0.36.9",
-    "jointjs": "^0.9.7"
+    "jointjs": "^0.9.7",
+    "jquery": "^2.2.1"
   },
   "license": "GPL-3.0",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/stargatefreak92/ff-dialogue-editor"
+    "type": "git",
+    "url": "https://github.com/stargatefreak92/ff-dialogue-editor"
   }
 }
