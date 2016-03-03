@@ -17,6 +17,7 @@
     "grunt-exec": "^0.4.6",
     "jointjs": "^0.9.7",
     "jquery": "^2.2.1",
+    "jquery-ui": "^1.10.5",
     "node-sass": "^3.4.2"
   },
   "license": "GPL-3.0",

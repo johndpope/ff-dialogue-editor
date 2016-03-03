@@ -1,14 +1,16 @@
 @import 'global-variables';
 
 #navigation {
-	padding: 10px 0;
+	height: $nav-height - 1px;
 	border-bottom: 1px solid black;
+	font-size: 120%;
 	
 	ul {
 		list-style-type: none;
 		text-align: center;
-		margin: 0;
+		margin: auto;
 		padding: 0;
+		line-height: $nav-height - 1px;
 	}
 	
 	li {
@@ -16,8 +18,22 @@
 	}
 	
 	a {
-		color: black;
+		color: white;
 		text-decoration: none;
 		padding: 10px;
+		cursor: default;
+	}
+	
+	a:hover {
+		background-color: gray;
+	}
+	
+	a:active {
+		background-color: #555;
+	}
+	
+	.active {
+		pointer-events: none;
+		background-color: #333;
 	}
 }
