@@ -19,7 +19,7 @@ Tags will be used to increment the release branch after every release so earlier
 5. Open an elevated command prompt pointing to the project directory.
 6. Run `npm install` to get all the dependencies.
 7. Run `grunt dev` to prepare the necessary files (e.g. compiling Sass `.scss` files to standard `.css`).
-8. Finally run `npm start` to run Electron with the app.
+8. Finally run `npm start`, or `grunt` without arguments, to run Electron with the app.
 
 ## Editing
-When you are editing `.scss` files, run `grunt` without a task to start watching files for changes. Grunt will then automatically compile all the Sass files into a single `main.css` file.
+When you are editing `.scss` files, run `grunt watch` to start watching files for changes. Grunt will then automatically compile all the Sass files into a single `main.css` file.
