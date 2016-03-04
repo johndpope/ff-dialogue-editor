@@ -38,7 +38,6 @@ body {
 
 .ui-tooltip {
 	border: 1px solid #777;
-	border-radius: 10px;
 	background-color: #444;
 	color: white;
 	position: absolute;
@@ -46,4 +45,50 @@ body {
 	padding: 4px 8px;
 	max-width: 250px;
 	z-index: 9999;
+}
+
+/*
+Context menu TEMP
+*/
+.b-m-mpanel, #menu, #flash
+{
+	background-color: #444;
+	position: absolute;
+	z-index: 99997;
+	-moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.b-m-split
+{
+	font-size: 0px;
+	margin: 2px;
+	border-bottom: 1px solid #777;
+}
+
+.b-m-item, .b-m-ifocus
+{
+    padding: 8px;
+    line-height: 100%;
+}
+
+span
+{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.b-m-ibody
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.b-m-ifocus
+{
+    background-color: #000;
 }

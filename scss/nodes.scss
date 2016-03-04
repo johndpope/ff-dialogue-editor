@@ -1,0 +1,150 @@
+/*
+Editor tools
+*/
+.marker-target
+{
+	fill: #fff;
+	stroke-width: 0;
+}
+
+.marker-vertex
+{
+   fill: #fff;
+}
+
+.marker-vertex:hover
+{
+   fill: #000;
+   stroke: none;
+}
+
+.marker-arrowhead
+{
+   fill: #fff;
+   stroke: none;
+}
+
+.marker-arrowhead:hover
+{
+   fill: #000;
+}
+
+.link-tools .tool-remove circle
+{
+   fill: #c0392b;
+}
+
+.connection
+{
+	stroke: #fff;
+}
+
+.inPorts circle
+{
+	fill: #c0392b;
+	stroke-width: 0;
+}
+
+.outPorts circle
+{
+	fill: #8c6;
+	stroke-width: 0;
+}
+
+.port-label
+{
+	display: none;
+}
+
+/*
+Node styles TEMP
+*/
+
+.node
+{
+	position: absolute;
+	background: #666;
+	/* Make sure events are propagated to the JointJS element so, e.g. dragging works.*/
+	pointer-events: none;
+	-webkit-user-select: none;
+	padding: 8px;
+	box-sizing: border-box;
+	z-index: 2;
+}
+
+.node input, button
+{
+	/* Enable interacting with inputs only. */
+	pointer-events: auto;	
+	border: none;
+	box-sizing: border-box;
+	background-color: #456;
+	color: #fff;
+}
+
+.node .label
+{
+	color: #ddd;
+}
+
+.node .label.Text
+{
+	color: #8c6;
+}
+
+.node .label.Set
+{
+	color: #acf;
+}
+
+.node .label.Choice
+{
+	color: #dc5;
+}
+
+.node .label.Branch
+{
+	color: #ea6;
+}
+
+button
+{
+	float: right;
+	border: none;
+	border-radius: 8px;
+	font-weight: bold;
+	width: 16px;
+	height: 16px;
+	line-height: 0px;
+	text-align: middle;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+button.delete:hover
+{
+	background-color: #c0392b;
+}
+
+.node button.add:hover
+{
+	background-color: #8c6;
+}
+
+.node button.remove:hover
+{
+	background-color: #dc5;
+}
+
+.node input
+{
+	width: 100%;
+	padding: 4px;
+	margin-top: 8px;
+}
+
+.node
+{
+	color: #fff;
+}
